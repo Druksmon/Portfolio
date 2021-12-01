@@ -835,7 +835,7 @@ align-items: center;
 
 /*RESPONSIVE */
 
-@media (max-width: 1440px) {
+@media (max-width: 90rem) {
     .heroColumRight {
 
         min-width: 33.5rem;
@@ -891,7 +891,7 @@ align-items: center;
 }
 
 
-@media (max-width: 1255px) {
+@media (max-width: 78.43rem) {
 
     .heroSection {
         min-height: 85vh;
@@ -958,7 +958,7 @@ align-items: center;
 }
 
 
-@media (max-width: 1143px) {
+@media (max-width: 71.43rem) {
 
     .heroColumRight {
 
@@ -1069,7 +1069,7 @@ align-items: center;
 
 
 /*VERTICAL */
-@media (max-width: 937px) {
+@media (max-width: 58.56rem) {
 
 
     .heroColumRight {
@@ -1157,7 +1157,7 @@ align-items: center;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
 
 
     #vertical {
@@ -1170,7 +1170,7 @@ align-items: center;
 
 }
 
-@media (max-width: 570px){
+@media (max-width: 35.625rem){
 
     .skillsContainer {
         gap: 2.6rem;
