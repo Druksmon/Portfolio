@@ -179,7 +179,8 @@ hr {
 
 
 }
-.heroColumRight2{
+
+.heroColumRight2 {
     display: none;
 }
 
@@ -478,12 +479,13 @@ hr {
 
 }
 
-.botoneraContent{
+.botoneraContent {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
 }
+
 .madeWith {
     display: flex;
     justify-content: space-between;
@@ -507,7 +509,7 @@ hr {
     display: flex;
     text-align: center;
     justify-content: center;
-align-items: center;
+    align-items: center;
     margin: 0 1.8rem 0 0;
 
 }
@@ -679,7 +681,7 @@ align-items: center;
     display: flex;
     flex-direction: row;
     width: 86%;
-    min-width: 31.125rem;
+
 
     flex-wrap: wrap;
     justify-content: center;
@@ -703,6 +705,10 @@ align-items: center;
 
     border-radius: 0.3rem;
 
+}
+
+.boxSkills img {
+    width: 60px;
 }
 
 
@@ -1032,7 +1038,8 @@ align-items: center;
         flex-direction: column;
         text-align: center;
     }
-    .recentWorkContainer h2{
+
+    .recentWorkContainer h2 {
         margin: 0 auto 2.5rem auto;
     }
 
@@ -1163,6 +1170,7 @@ align-items: center;
     #vertical {
         opacity: 0;
     }
+
     .aboutmeText h1 {
         min-width: 100%;
     }
@@ -1170,11 +1178,82 @@ align-items: center;
 
 }
 
-@media only screen and (max-width: 35.625rem){
+@media only screen and (max-width: 35.625rem) {
 
     .skillsContainer {
         gap: 2.6rem;
+        width: 90%;
+
     }
 
+
+}
+
+
+@media only screen and (max-width: 31.255rem) {
+    .skillsContainer {
+        gap: 1.5rem;
+
+    }
+
+    .boxSkills {
+        min-width: 9.9rem;
+        align-items: center
+
+    }
+
+    .boxSkills p {
+        font-size: 13px;
+    }
+
+    .boxSkills img {
+        width: 40px;
+    }
+    .footerText h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .footerItems i {
+        margin: 0;
+    }
+    .footerItems a {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 24rem) {
+    .footerText h1 {
+        font-size: 2.1rem;
+        margin: 0;
+    }
+
+    .skillsContainer {
+        flex-direction: column;
+
+    }
+    .boxSkills {
+        min-width: 100%;
+        align-items: center
+
+    }
+
+    .boxSkills p {
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .boxSkills img {
+        width: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 17.5rem) {
+
+    .footerText h1 {
+        font-size: 1.7rem;
+        margin: 0;
+    }
 }
 
