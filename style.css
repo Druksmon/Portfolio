@@ -566,7 +566,7 @@ hr {
     width: 90%;
     text-align: center;
     justify-content: space-between;
-    gap: 5%;
+    gap: 30px;
 
 
 }
@@ -581,7 +581,7 @@ hr {
     backdrop-filter: blur(15px);
 
     width: 28%;
-    min-width: 23.18rem;
+    min-width: 20.18rem;
     height: 170px;
     border-radius: 5px;
     box-shadow: rgb(91 86 189 / 28%) 20px -30px 30px -28px inset;
