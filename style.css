@@ -261,6 +261,9 @@ hr {
 
 .buttonsHero {
     margin: 5rem 0 0 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 
 
 }
@@ -501,6 +504,7 @@ hr {
 }
 
 .buttonInline {
+
     height: 1.8rem;
     width: 80%;
     min-width: 6.25rem;
@@ -511,12 +515,16 @@ hr {
     justify-content: center;
     align-items: center;
     margin: 0 1.8rem 0 0;
+    cursor: not-allowed;
 
 }
 
 .buttonCode {
+    text-decoration: none;
     max-width: 3.7rem;
     min-width: 3.7rem;
+    cursor: not-allowed;
+    color: white;
 }
 
 
@@ -558,6 +566,7 @@ hr {
     margin: 0 0 45px 0;
     text-align: left;
     opacity: 0.6;
+
 }
 
 .moreProyects {
@@ -596,10 +605,24 @@ hr {
 
 }
 
+.moreProyects div:nth-child(1):hover {
 
-.moreProyects div:hover {
+    background-image: url("images/Portfolio.jpg");
+    background-size: cover;
 
-    background-image: url("images/moreproyects.png");
+
+}
+.moreProyects div:nth-child(2):hover {
+
+    background-image: url("images/EGO.jpg");
+    background-size: cover;
+
+
+}
+
+.moreProyects div:nth-child(3):hover {
+
+    background-image: url("images/BURGER.jpg");
     background-size: cover;
 
 
@@ -613,12 +636,13 @@ hr {
     opacity: 0.7;
     text-align: left;
     line-height: 19px;
-
+    cursor: not-allowed;
 
 }
 
 .moreProyects div i {
     opacity: 0.7;
+    cursor: not-allowed;
 }
 
 .moreProyects div h3 {
@@ -1221,6 +1245,13 @@ hr {
         display: flex;
         flex-direction: column;
     }
+
+    .navVar a {
+      padding: 0 25px;
+    }
+
+
+
 }
 @media only screen and (max-width: 24rem) {
     .footerText h1 {
@@ -1245,6 +1276,17 @@ hr {
 
     .boxSkills img {
         width: 60px;
+    }
+    .navVar a {
+        padding: 0 15px;
+    }
+.heroColumLeft h1 {
+    font-size: 3.4rem;
+    line-height: 4.1rem;
+}
+    .buttonContact{
+        margin: 0 1.5rem 0 0;
+        padding: 0.6rem 1rem;
     }
 
 }
