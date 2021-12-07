@@ -374,7 +374,6 @@ hr {
 }
 
 .recentWorkSection p {
-    margin: 1.8rem 0 3.1rem 0;
     opacity: 0.7;
 }
 
@@ -418,11 +417,6 @@ hr {
     opacity: 0.1;
 }
 
-.recentWorkContainer p {
-
-    color: white;
-    opacity: 1;
-}
 
 .colLeft, .colRight {
 
@@ -444,11 +438,11 @@ hr {
 }
 
 .colLeft p {
-    margin: 1rem 0 3.12rem 0;
+    margin: 1.8rem 0 3.1rem 0;
 }
 
 .colRight p {
-    margin: 2.81rem 0 1 0;
+    margin: 2.81rem 0 1rem 0;
 }
 
 .imageRecentContainer {
@@ -464,32 +458,35 @@ hr {
     width: 100%;
 }
 
-/*MORE PROJECTS */
+
 
 .botoneraDiv {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    margin: 0.9rem 0 0 0;
+
     opacity: 0.8;
 
 }
 
-.botoneraDiv p {
+
+.madeWith {
+    display: flex;
+    margin: 0 auto 15px 0;
+    flex-direction: column;
+
+}
+
+.madeWith p {
     opacity: 0.6;
-    margin: 0 0 10px 0;
+    margin: 0 15px 0 0;
     text-align: left;
 
 }
 
-.botoneraContent {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.madeWith {
+.madeWithIcons {
     display: flex;
     justify-content: space-between;
     margin: 0 20px 0 0;
@@ -498,15 +495,22 @@ hr {
 }
 
 
-.botoneraContent h5 {
+.botoneraDiv h5 {
     margin: 0;
+
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    align-items: center
 
 }
 
 .buttonInline {
 
     height: 1.8rem;
-    width: 80%;
+    width: 90%;
     min-width: 6.25rem;
     border: 2px solid rgba(255, 255, 255, 0.71);
     border-radius: 10px;
@@ -612,6 +616,7 @@ hr {
 
 
 }
+
 .moreProyects div:nth-child(2):hover {
 
     background-image: url("images/EGO.jpg");
@@ -920,7 +925,6 @@ hr {
 
 }
 
-
 @media only screen and (max-width: 78.43rem) {
 
     .heroSection {
@@ -986,7 +990,6 @@ hr {
     }
 
 }
-
 
 @media only screen and (max-width: 71.43rem) {
 
@@ -1098,8 +1101,6 @@ hr {
     }
 }
 
-
-/*VERTICAL */
 @media only screen and (max-width: 58.56rem) {
 
 
@@ -1213,7 +1214,6 @@ hr {
 
 }
 
-
 @media only screen and (max-width: 31.255rem) {
     .skillsContainer {
         gap: 1.5rem;
@@ -1233,6 +1233,7 @@ hr {
     .boxSkills img {
         width: 40px;
     }
+
     .footerText h1 {
         font-size: 3rem;
         margin: 0;
@@ -1241,18 +1242,19 @@ hr {
     .footerItems i {
         margin: 0;
     }
+
     .footerItems a {
         display: flex;
         flex-direction: column;
     }
 
     .navVar a {
-      padding: 0 25px;
+        padding: 0 25px;
     }
 
 
-
 }
+
 @media only screen and (max-width: 24rem) {
     .footerText h1 {
         font-size: 2.1rem;
@@ -1263,6 +1265,7 @@ hr {
         flex-direction: column;
 
     }
+
     .boxSkills {
         min-width: 100%;
         align-items: center
@@ -1277,14 +1280,17 @@ hr {
     .boxSkills img {
         width: 60px;
     }
+
     .navVar a {
         padding: 0 15px;
     }
-.heroColumLeft h1 {
-    font-size: 3.4rem;
-    line-height: 4.1rem;
-}
-    .buttonContact{
+
+    .heroColumLeft h1 {
+        font-size: 3.4rem;
+        line-height: 4.1rem;
+    }
+
+    .buttonContact {
         margin: 0 1.5rem 0 0;
         padding: 0.6rem 1rem;
     }
