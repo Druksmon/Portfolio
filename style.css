@@ -29,8 +29,6 @@ body {
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     color: white;
-
-
 }
 hr {
     margin: 0;
@@ -43,6 +41,7 @@ hr {
 
 
 /*SCROLL TO SEE MORE */
+
 #vertical {
     position: fixed;
     top: 0;
@@ -64,9 +63,7 @@ hr {
 
 /*NAV BAR */
 
-
 .navVar {
-
     display: flex;
     justify-content: center;
     color: white;
@@ -76,7 +73,6 @@ hr {
 .fullContainer {
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.56) 0%, rgba(130, 130, 130, 0.00043767507002800965) 53%);
-    /*background-color: rgb(172 124 202 / 10%);*/
     backdrop-filter: blur(5px);
     display: flex;
     z-index: 15;
@@ -96,47 +92,15 @@ hr {
     margin: 20px 0 15px 0;
     opacity: 0.9;
     padding: 0 35px;
-
 }
 .divitorNav {
     -webkit-box-shadow: -13px 0px 0px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -13px 0px 0px 0px rgba(0, 0, 0, 0.75);
     box-shadow: -2px 0px 0px 0px rgb(255, 255, 255);
 }
-.fullContainer hr {
-
-    opacity: 0.3;
-    width: 60%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-}
 
 
 /*HERO SECTION*/
-
-.backgroundCircle {
-    position: absolute;
-    z-index: -1;
-    width: 1200px;
-    top: -100px;
-    right: -205px;
-    opacity: 0.4;
-}
-
-.backgroundCircle2 {
-    position: absolute;
-    z-index: -1;
-    width: 600px;
-    left: 0;
-    display: none;
-
-    /*top: -100px;*/
-    /*right: -205px;*/
-    opacity: 0.4;
-}
-
-
 .heroSection {
 
     position: relative;
@@ -150,30 +114,12 @@ hr {
     overflow: hidden;
 
 }
-
 .heroContainer {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
     justify-content: space-around;
-    /*gap: 10rem;*/
-}
 
-.heroColumRight {
-
-    position: relative;
-    min-width: 37.5rem;
-    max-width: 40%;
-
-
-}
-
-.heroColumRight2 {
-    display: none;
-}
-
-.macImage {
-    width: 100%;
 }
 
 .heroColumLeft {
@@ -187,7 +133,6 @@ hr {
 }
 
 .heroColumLeft h1 {
-
     font-size: 5rem;
     font-weight: bold;
     margin: 0;
@@ -220,6 +165,23 @@ hr {
     -webkit-text-fill-color: transparent;
 }
 
+.heroColumLeft a {
+    color: white;
+    text-decoration: none;
+}
+
+.heroColumLeft p {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.buttonsHero {
+    margin: 5rem 0 0 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 .buttonContact {
     background-color: #5b56bd;
     border-radius: 10px;
@@ -229,31 +191,38 @@ hr {
     margin: 0 2.5rem 0 0;
     font-weight: bold;
     font-size: 0.9rem;
-
-
 }
 
-.heroColumLeft a {
-    color: white;
-    text-decoration: none;
-
-
+.heroColumRight {
+    position: relative;
+    min-width: 37.5rem;
+    max-width: 40%;
 }
 
-.heroColumLeft p {
-    font-weight: bold;
-    font-size: 1.1rem;
-
+.macImage {
+    width: 100%;
 }
 
+.backgroundCircle {
+    position: absolute;
+    z-index: -1;
+    width: 1200px;
+    top: -100px;
+    right: -205px;
+    opacity: 0.4;
+}
 
-.buttonsHero {
-    margin: 5rem 0 0 0;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+.heroColumRight2 {
+    display: none;
+}
 
-
+.backgroundCircle2 {
+    position: absolute;
+    z-index: -1;
+    width: 600px;
+    left: 0;
+    display: none;
+    opacity: 0.4;
 }
 
 
@@ -273,7 +242,7 @@ hr {
     opacity: 0.6;
 }
 
-.experimento {
+.myPrinciples {
     width: 60%;
     position: absolute;
     opacity: 0.1;
@@ -301,7 +270,6 @@ hr {
     height: 6.25rem;
     background-color: rgb(87 72 97 / 10%);
     backdrop-filter: blur(15px);
-    /*margin: 0 30px 0 30px;*/
     border-radius: 15px;
     box-shadow: rgb(91 86 189 / 28%) 20px -30px 30px -28px inset;
 
@@ -328,8 +296,6 @@ hr {
 
 .designContainer img {
     width: 4.375rem;
-
-
     margin: 0 0 0 1.8rem;
 }
 
@@ -343,21 +309,12 @@ hr {
 
 
 .recentWorkSection {
-    /*background-color: rgb(0 0 0 / 18%);*/
     padding: 10.62rem 0 1.25rem 0;
     display: flex;
     flex-direction: column;
     width: 100%;
-
     align-items: center;
     justify-content: center;
-    /*background: linear-gradient(*/
-    /*        to bottom,*/
-    /*        rgba(57, 13, 201, 0) 0%,*/
-    /*        rgba(6, 119, 250, 0) 2%,*/
-    /*        rgb(2 2 14 / 47%) 10%,*/
-    /*        rgb(2 2 14 / 47%) 100%*/
-    /*);*/
 
 }
 
@@ -374,7 +331,6 @@ hr {
     overflow: hidden;
     display: flex;
     width: 90%;
-
     background-color: rgb(87 72 97 / 10%);
     backdrop-filter: blur(15px);
     align-items: center;
@@ -405,24 +361,17 @@ hr {
     opacity: 0.1;
 }
 
-
 .colLeft, .colRight {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-
     width: 43%;
-
-
     margin: 4.3rem 0;
-
 }
 
 .colLeft h2 {
     margin: 0 0 2.5rem 0;
-
 }
 
 .colLeft p {
@@ -436,16 +385,13 @@ hr {
 .imageRecentContainer {
     display: flex;
     width: 100%;
-
     border-radius: 5px;
     overflow: hidden;
-
 }
 
 .imageRecentContainer img {
     width: 100%;
 }
-
 
 .botoneraDiv {
     display: flex;
@@ -453,24 +399,22 @@ hr {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-
     opacity: 0.8;
-
 }
-
-
-.madeWith {
-    display: flex;
-    margin: 0 auto 15px 0;
-    flex-direction: column;
-
+.botoneraDiv h5 {
+    margin: 0;
 }
 
 .madeWith p {
     opacity: 0.6;
     margin: 0 15px 0 0;
     text-align: left;
+}
 
+.madeWith {
+    display: flex;
+    margin: 0 auto 15px 0;
+    flex-direction: column;
 }
 
 .madeWithIcons {
@@ -479,12 +423,6 @@ hr {
     margin: 0 20px 0 0;
     max-width: 8rem;
     min-width: 7rem;
-}
-
-
-.botoneraDiv h5 {
-    margin: 0;
-
 }
 
 .buttons {
@@ -528,15 +466,11 @@ hr {
     align-items: center;
     width: 100%;
     padding: 5.6rem 0 8.1rem 0;
-
-    /*background-color: rgba(50, 0, 122, 0.18);*/
-
 }
 
 .moreProyectsSection button {
     width: 11.8rem;
     margin: 70px 0 0 0;
-
     border: 0;
     border-radius: 0.6rem;
     background-color: rgba(255, 255, 255, 0.2);
@@ -549,8 +483,6 @@ hr {
     opacity: 0.7;
     margin: 6rem 5% 3.1rem 5%;
     text-align: center;
-
-
 }
 
 .moreProyectsSection h3 {
@@ -576,49 +508,16 @@ hr {
     align-items: center;
     position: relative;
     justify-content: space-evenly;
-
     background-color: rgb(87 72 97 / 10%);
     backdrop-filter: blur(15px);
-
     width: 28%;
     min-width: 20.18rem;
     height: 170px;
     border-radius: 5px;
     box-shadow: rgb(91 86 189 / 28%) 20px -30px 30px -28px inset;
-
     overflow: hidden;
-
-
-    /*transition-property: all;*/
-    /*transition-duration: 10s;*/
-    /*transition-timing-function: ease-in-out;*/
-
-
 }
 
-.moreProyects div:nth-child(1):hover {
-
-    background-image: url("images/Portfolio.jpg");
-    background-size: cover;
-
-
-}
-
-.moreProyects div:nth-child(2):hover {
-
-    background-image: url("images/EGO.jpg");
-    background-size: cover;
-
-
-}
-
-.moreProyects div:nth-child(3):hover {
-
-    background-image: url("images/BURGER.jpg");
-    background-size: cover;
-
-
-}
 
 
 .moreProyects div a {
@@ -629,7 +528,6 @@ hr {
     text-align: left;
     line-height: 19px;
     cursor: not-allowed;
-
 }
 
 .moreProyects div i {
@@ -646,6 +544,20 @@ hr {
     cursor: pointer;
 }
 
+.moreProyects div:nth-child(1):hover {
+    background-image: url("images/Portfolio.jpg");
+    background-size: cover;
+}
+
+.moreProyects div:nth-child(2):hover {
+    background-image: url("images/EGO.jpg");
+    background-size: cover;
+}
+
+.moreProyects div:nth-child(3):hover {
+    background-image: url("images/BURGER.jpg");
+    background-size: cover;
+}
 
 
 .moreProyects div::before {
@@ -666,99 +578,16 @@ hr {
 }
 
 
-/*SKILLS SECTION*/
-
-.skillsSection {
-
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    flex-direction: column;
-    text-align: center;
-    padding: 0;
-    overflow: hidden;
-}
-
-.skillsSection hr {
-    margin: 0;
-
-    opacity: 0.3;
-    width: 90%;
-    border: 0;
-    top: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-}
-
-.skillsSection h3 {
-    margin: 0;
-    padding: 7.5rem 0 0 0;
-    opacity: 0.6;
-}
-
-.skillsContainer {
-    display: flex;
-    flex-direction: row;
-    width: 86%;
-
-
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding: 5.6rem 0 12.5rem 0;
-    text-align: center;
-    gap: 5.6rem;
-
-}
-
-.boxSkills {
-
-    background-color: rgba(255, 255, 255, 0.1);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-
-    min-width: 12.3rem;
-    padding: 0.625rem 0;
-
-    border-radius: 0.3rem;
-
-}
-
-.boxSkills img {
-    width: 60px;
-}
-
-
-.spaceSkills {
-    margin: 0 0.6rem 0 0.93rem;
-}
-
-
 /*ABOUT ME SECTION*/
 
 .aboutMeSection {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-
     position: relative;
-    /*background-color: rgb(111 25 114 / 7%);*/
     overflow: hidden;
-    /*background: linear-gradient(*/
-    /*        to top,*/
-    /*        rgba(57, 13, 201, 0) 0%,*/
-    /*        rgba(6, 119, 250, 0) 5%,*/
-    /*        rgb(23 19 54 / 43%) 60%,*/
-    /*        rgb(23 18 39 / 68%) 100%*/
-    /*);*/
-
 }
 
 
@@ -773,7 +602,6 @@ hr {
 }
 
 .aboutmeText div {
-
     width: 50%;
     margin: 15px 0 0 0;
 
@@ -787,7 +615,6 @@ hr {
 
 .aboutmeText p {
     margin: 0;
-
 }
 
 .aboutmeText h1 {
@@ -795,10 +622,55 @@ hr {
     font-size: 3.43rem;
     margin: 0;
     letter-spacing: 1.5rem;
-    /*line-height: 2.8rem;*/
     max-width: 19.375rem;
 }
 
+/*SKILLS SECTION*/
+
+.skillsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+.skillsSection h3 {
+    margin: 0;
+    padding: 7.5rem 0 0 0;
+    opacity: 0.6;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 86%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 5.6rem 0 12.5rem 0;
+    text-align: center;
+    gap: 5.6rem;
+}
+
+.skillsContainer div {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    min-width: 12.3rem;
+    padding: 0.625rem 0;
+    border-radius: 0.3rem;
+}
+
+.skillsContainer div img{
+    width: 60px;
+    margin: 0 0.6rem 0 0.93rem;
+}
 
 /*FOOTER SECTION*/
 
@@ -838,7 +710,6 @@ hr {
     margin: 15px 0 0 10px;
 
 }
-
 
 .footerItems {
     display: flex;
